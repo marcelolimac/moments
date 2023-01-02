@@ -41,9 +41,41 @@ img {
 .comments {
     margin-bottom: 1em;
     padding: 1.5em 0;
+    width: 100%;
 }
 
 /* 
     veja que todo o html está envolvido na div de moments, ela sendo um display flex não afeta itens de tags individuais, so afeta
     o escopo de tags que estão dentro de moments, como as divs de about, actions e comments mas nenhum item dentro dessas divs individuais, ou seja, o display flex afeta items do seu escopo mas não itens dos itens.
 */
+
+.comment-container {
+    text-align: left;
+    border-bottom: 1px solid #efefef;
+    padding: 1em 0;
+}
+
+.comment {
+    font-size: .9em;
+}
+
+.author {
+    font-size: .8em;
+}
+
+.comment-form {
+    margin-bottom: 3em;
+}
+
+.comment-form form {
+    margin-top: 1em;
+    text-align: left;
+    max-width: 300px;
+    margin-left: 0;
+}
+
+.author span {
+    font-weight: bold;
+}
+
+
